@@ -40,3 +40,4 @@ end
 #gradientDesc(mtcars[:,:Disp], mtcars[:,:MPG], 0.0000293, 0.001, 32, 2500000)
 
 gradientDesc(mtcars[:,:Disp], mtcars[:,:MPG], 0.0000293, 0.001, 32, 2500)
+# see discription
