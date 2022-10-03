@@ -1,5 +1,10 @@
 # All-Pracs
-place where Ill be uploading all practical files MSc.CS 
+-place where Ill be uploading all practical files MSc.CS.
+
+- Want to contribute ?
+open Pull request
+
+- Support
 If you want to support more opensource efforts star this repository
 
 ## Semester - I: 
