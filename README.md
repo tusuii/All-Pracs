@@ -1,5 +1,6 @@
 # All-Pracs
 place where Ill be uploading all practical files MSc.CS 
+If you want to support more opensource efforts star this repository
 
 ## Semester - I: 
 * Algorithm for Optimization (AOA).
