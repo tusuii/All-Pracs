@@ -1,16 +1,20 @@
 # All-Pracs
--place where Ill be uploading all practical files MSc.CS.
+## place where I'll be uploading all practical files MSc.CS.
 
-- Want to contribute ?
-
-open Pull request
-
-- Support:- 
-
-If you want to support more opensource efforts star this repository
-
+---
 ## Semester - I: 
 * Algorithm for Optimization (AOA).
 * Software Defined Networking.
 * Applied Signal and Image Processing (DIP/AIP).
 * Advanced Database Techniques (ADBMS)
+
+---
+- Want to contribute ?
+
+    1.open Pull request
+
+- Support:- 
+
+    1. Star this repository.
+    2. help improving code/documentation.
+    3. address if issues are present.
