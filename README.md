@@ -3,7 +3,7 @@
 
 ---
 ## Semester - I: 
-* Algorithm for Optimization (AOA).
+* Algorithm for Optimization (AO).
 * Software Defined Networking.
 * Applied Signal and Image Processing (DIP/AIP).
 * Advanced Database Techniques (ADBMS)
