@@ -1,7 +1,7 @@
 # Practical 1:-  Implement Contour Plots.
 using PlotlyJS  # dependency PlotlyJS
 
-print(random)
+
 x = contour(
     z=[
         11      10.625      12.5       10.625     20
