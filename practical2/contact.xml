@@ -1,0 +1,17 @@
+<data>  
+    <contact id="1">  
+        <name>john doe</name>  
+        <address>unknown</address>  
+        <phone>007</phone>  
+    </contact> 
+    <contact id="3">
+        <name name="name">subodh</name>
+        <address name="address">kalyan East</address>
+        <phone name="phone">4512645</phone>
+    </contact>
+    <contact id="4">
+        <name name="name">jay</name>
+        <address name="address">chilka lake</address>
+        <phone name="phone">45465656</phone>
+    </contact>
+</data>
