@@ -1,0 +1,25 @@
+1.To check pip is working properly :
+
+pip
+
+---------------------------------------
+
+2.To Update pip :
+
+python -m pip install --upgrade pip
+
+-----------------------------------------
+
+3.To install all required packages :
+
+pip install numpy opencv-python Pillow scipy matplotlib 
+
+
+-----------------------------------------
+
+4.VS code setup :
+
+Extension : Jupyter by microsoft
+
+[Menu bar] View > Command pallete > Create: New jupyter Notebook
+
