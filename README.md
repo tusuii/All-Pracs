@@ -1,5 +1,5 @@
 # All-Pracs
-## place where I'll be uploading all practical files MSc.CS.
+## practical files MSc.CS.
 
 ---
 ## Semester - I: 
