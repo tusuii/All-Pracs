@@ -1,0 +1,121 @@
+Practical 5
+
+Aim: Create a table that stores spatial data and issues queries on it.
+
+background Information:
+
+Temporal Database:
+
+Temporal Database is a database with built-in support for handling time sensitive data. Usually, databases store information only about current state, and not about past states. For example, in a employee database if the address or salary of a particular person changes, the database gets updated, the old value is no longer there. However, for many applications, it is important to maintain the past or historical values and the time at which the data was updated. That is, knowledge of evolution is required. That is where temporal databases are useful. It stores information about the past, present and future. Any data that is time dependent is called temporal data and these are stored in temporal databases.
+
+Code/Output:
+
+Command to create database:
+
+-use TimeseriesData
+
+
+> use TimeseriesData
+
+switched to db TimeseriesData
+
+>
+
+
+Command to make a collection:
+
+->db.createCollection(
+
+"weather",
+
+{
+
+timeseries: {
+
+timeField: "timestamp", metaField: "metadata",
+
+granularity: "hours"
+
+}
+
+
+
+
+
+Command to insert multiple data:
+
+: -db.weather.insertMany([
+
+
+"metadata": { "sensorld": 5578, "type": "temperature").
+
+"timestamp": ISODate("2021-05-18T00:00:00.000Z"),
+
+"temp": 12
+
+"metadata": { "sensorld": 5578, "type": "temperature"},
+
+"timestamp": ISODate("2021-05-18T04:00:00.000Z"),
+
+"temp": 11
+
+).
+
+"metadata": { "sensorld": 5578, "type": "temperature" },
+
+"timestamp": ISODate("2021-05-18T08:00:00.000Z"),
+
+"temp": 11
+
+).
+
+"metadata": { "sensorld": 5578, "type": "temperature"},
+
+"timestamp": ISODate("2021-05-18T12:00:00.000Z"),
+
+"temp": 12
+
+"metadata": { "sensorld": 5578, "type": "temperature"},
+
+"timestamp": ISODate("2021-05-18T16:00:00.000Z"),
+
+"temp": 16
+
+"metadata": { "sensorld": 5578, "type": "emperature") "timestamp": ISODate("2021-05-18T20:00:00.000Z"),
+
+"Temp: 15
+
+"metadata": "sensorld": 5578, "type": "emperature"). "timestamp": ISODate("2021-05-19T00:00:00.000Z"),
+
+"temp": 13
+
+"metadata": { "sensorid": 5578, "type": "temperature"), "timestamp": ISODate("2021-05-19T04:00:00.000Z") "temp": 12
+
+"metadata": { "sensorld" 5578, "type": "temperature? ). "timestamp" ISODate("2021-05-19T08:00:00.000Z")
+
+"metadata": { "sensorld" 5578 "type": "temperature").
+
+"timestamp": ISODate("2021-05-19T12:00:00.000Z")
+
+"temp": 12
+
+"metadata": { "sensorld": 5578, "type": "temperature").
+
+"timestamp": ISODate("2021-05-19T16:00:00.0002")
+
+"temp" 17
+
+"metadata": { "sensorld": 5578, "type": "temperature" }, imestamp": ISODate("2021-05-19T20:00:00.000Z"),
+
+
+
+Command to view a single data:
+
+---->db.weather.findOne({
+
+"timestamp": ISODate("2021-05-18T00:00:00.000Z")
+
+})
+
+
+

@@ -1,0 +1,103 @@
+
+Aim: Demonstrate the Accessing and wing and performing CRUD operation in
+1. HBase
+2. Apache Cassandra
+
+Background Information
+HBase
+ is an open-source non-relational distributed database modeled after Google's Bigtable and written in Java. It is developed as part of Apache Software Foundation's Apache Hadoop project and runs on top of HDFS (Hadoop Distributed File System) or Alluxio, providing Bigtable-like capabilities for Hadoop. That is, it provides a fault- tolerant way of storing large quantities of sparse data (small amounts of information caught within a large collection of empty or unimportant data, such as finding the 50 largest items in a group of 2 billion records or finding the non-zero items representing less than 0.1% of a huge collection).
+
+
+Apache Cassandra:
+
+Cassandra is a five and open-source, distributed, wide-column store, NoSQL database manager with designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure. Cassandra offers support for chatrs spanning multiple datacenters with masterless replication allowing low latency operations for all clients, Cassandra was designed to impl combination of Amazon's Dynamo distributed stotage and replication techniques combined with Google's Bigtable
+
+Create Operation
+
+data and storage engine model. The create or insert operations are used to insert or add new documents in the collection. If collection does not exist, then it will create a new collection in the database
+
+Read Operation:
+
+The Read operations are used to retrieve documents from the collection, or in other words, read operations
+
+to query a collection for a document
+
+Update Operation:
+
+The update operations are used to update or modify the existing document in the collection
+
+Delete Operation:
+
+The delete operation is used to delete or remove documents from a collection
+
+
+
+code/output:
+
+1.HBase
+
+2. Apache Cassandra
+
+
+Command to create keyspace
+
+CREATE KEYSPACE studentDB WITH replication('class':'SimpleStrategy', 'replication_factor: 1};
+
+
+Command to use keyspace
+
+-->use studentDB;
+
+
+Command to create table
+
+--->CREATE TABLE student(
+
+s_id int PRIMARY KEY,
+
+_s_name text,
+
+_s_city text,
+
+_s_class text
+_);
+
+
+Command to insert data
+
+--->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(1, 'Raj', 'Mumbai', 'MSC_CS');
+
+--->INSERT INTO student (s_id,s_name,s_city,s_class) VALUES(2,'Mohit', 'Thane', 'MSC_IT');
+
+--->INSERT INTO student (s_id,s_name,s_city,s_class) VALUES(3,'Mohan', 'Kalyan', 'MSc_CS');
+
+---->INSERT INTO student (s_id,s_name,s_city,s_class) VALUES(4,'Sandeep', 'Pune', 'MSC_CS');
+
+----->INSERT INTO student (s_id,s_name,s_city,s_class) VALUES(5, 'Suraj', 'Mumbai', 'MSc_IT');
+
+
+
+
+Command to read data
+
+---->SELECT * FROM student;
+
+
+Command to update data
+
+--->UPDATE student SET s_city="Thane' WHERE s_id=4;
+
+
+Command to delete a data
+
+-->DELETE s_class FROM student WHERE s_id=5;
+
+
+Command to delete a row
+
+---->DELETE FROM student WHERE s id=5;
+
+
+
+
+

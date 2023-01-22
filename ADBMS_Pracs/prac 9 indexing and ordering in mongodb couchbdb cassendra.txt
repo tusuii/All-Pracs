@@ -1,0 +1,182 @@
+
+Practical 9
+
+Demonstrate the indexing and ordering operations in
+Apache Casandra
+couchdb
+Momgodb
+
+background info:
+
+
+Mongodb:
+ is a source-available cross-platform document-oriented database program, Classified as Q hase program, MongoDB uses JSON like documents with optional schemas. Mongol is developed by MaDB Inc. and licensed under the Server-Side Public License (SSPL) which is deemed non-free by several
+
+Apache CouchDB
+ is an open-source document-oriented NoSQL database, implemented in Erlang: CouchD tiple formats and protocols to store, transfer, and process is data. It uses JSON to store data, JavaScript as y language using MapReduce, and HTTP for an API, CouchDB was first released in 2005 and later became Apache Software Foundation project in 2008. Unlike a relational database, a CouchD) hahase does not store data relationships in tables. Instead, each database is a collection of independent documents. Each document tains its own data and self-contained schema. An application may access multiple datahes, channe ed on a user's mobile phone and another on a server. Decament metadata contains revision information possible to merge any differences that may have occurred while the databines were disconnected
+
+Apache Cassandra:
+
+Candra is a free and open-source, distributed, wide-column store, NoSQL database management system igned to handle large amounts of data across many commoday servers, providing high availability with oo gle point of failure. Cassandra offers support for clusters spanning multiple datacenters, with asynchronous
+masterless replication allowing low latency operations for all clients, Casandra was designed to implement a
+combination of Amazon's Dynamo distributed storage and replication techniques combined with Google's Bigtable
+data and storage engine model.
+
+
+Indexing:
+
+Indexing is used to optimize the performance of a database by minimizing the number of disk accesses required
+when a query is processed. The index is a type of data structure. It is used to locate and access the data in a database table quickly.
+
+Sorting in SQL:
+
+Sorting helps to sort the records that are retrieved. By default, it displays the records in ascending order of primary key. If we need to sort it based on different columns, then we need to specify it in ORDER BY clause. If we need to order by descending order, then DESC keyword must be added aller the column list.
+
+Sorting in MongoDB:
+
+To sort documents in MongoDB, you need to use the sort () method. The method accepts a document containing a list of fields along with their sorting order. To specify sorting order I and -1 are used. I is used for ascending order while-1 is used for descending order.
+
+
+
+code/output:
+
+1. Mongo db
+
+Command to create a Database 
+----->use StudentData
+
+>use StudentData switched to db StudentData
+
+
+Command to create a Collection
+
+----->db.createCollection("Student")
+
+>db.createCollection("Student")
+
+{"ok": 1 }
+
+
+
+Command to view Collection
+
+---->show collections
+
+>show collections
+Student
+
+
+Command to insert a single document in Collection
+
+----->db. Student. insertOne({"name":"Raj"."Roll_no":1,"Class":"MSc
+CS."Address" "Mumbai"}}
+
+Command to insert multiple documents in Collection
+
+---->db.Student.insertMany("name" "Raja", "Roll no":2,"Class":"MSc CS "Address"Kalyan "Roll no":3,"Class":"MSc CS","Address" "Than" "name" "Rahul "Roll "Clas" "MITA "Kalyan")("name":"Mohit", "Roll_no":5,"Class" "MSc IT"Address" "Than")""""all Class "MSc IT","Address":"Pune")])
+
+
+Command to view all documents
+--->db. Student.find()
+
+
+Command to Create Index
+--->Student.createIndex(("Roll_no":1});
+
+
+
+Command to view all indexes in collection
+---->db.Student.getIndexes();
+
+
+Command to Drop Index
+
+---->db.Student.dropIndex({"Roll_no":1});
+
+
+Before Sorting/Ordering
+
+
+Command to order data in ascending order
+
+--->db.Student.find({},{"name":1,"Roll_no":1,_id:0)).sort({"Roll_no":1});
+
+
+Command to order data in decending order
+
+---->db.Student.find({},{"name":1,"Roll_no":1, _id:01) son(("Roll_no">-1));
+
+
+2)CouchDB
+
+3)Apache Cassandra
+
+Command to create keyspace
+
+---->CREATE KEYSPACE studentDB WITH replication('class': 'SimpleStrategy', 'replication_factor': 1);
+
+cqlsh> CREATE KEYSPACE student00 WITH replication ("class":"SimpleStrategy","replication_factor" 1);
+replication factor: 11:
+
+
+Command to use keyspace
+
+---->use studentDB;
+
+cqlsh>
+cqlsh> use studentDB; 
+cqlsh: studentdb>
+
+
+Command to create table
+
+----->CREATE TABLE student(
+
+_s_id int PRIMARY KEY,
+
+_s_name text,
+
+_s_city text,
+
+_s_class text
+_);
+
+
+Command to insert data
+
+--->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(1,'Raj', 'Mumbai', 'MSC_CS');
+
+-->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(2, 'Mohit', 'Thane', 'MSC_IT');
+
+---->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(3,'Mohan', 'Kalyan', 'MSc_CS');
+
+--->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(4,'Sandeep', 'Pune', 'MSC_CS'); 
+
+->INSERT INTO student (s_id,s_name,s_city,s_class)VALUES(5, 'Suraj', 'Mumbai', 'MSc_IT');
+
+
+
+Command to read data
+
+---->SELECT * FROM student;
+
+
+
+Command to create index
+
+--->Create index ClassIndex on student(s_class);
+
+
+Command to view filtered data
+
+-->SELECT * FROM student WHERE s_class = 'MSC_CS';
+
+
+
+Command to delete index
+
+-->DROP INDEX IF EXISTS studentDB.ClassIndex;
+
+
+
+
