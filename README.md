@@ -27,9 +27,12 @@
 
     5) Then you can work on the respective repository in your local machine. After you did your changes then follow below commands :-
 
-	> git add [file_names]
-	> git commit -m "commit message"
-	> git push origin [branch_you_created]
+	    > git add [file_names]  
+
+	    > git commit -m "commit message"  
+
+	    > git push origin [branch_you_created]  
+        
 
     6) Open pull request in github with dedicated comment.
 
