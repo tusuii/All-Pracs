@@ -29,9 +29,9 @@
 
 	> git add [file_names]
 	> git commit -m "commit message"
-	> git remote origin [branch_you_created]
+	> git push origin [branch_you_created]
 
-    6) Open pull request in github with comment.
+    6) Open pull request in github with dedicated comment.
 
 - Support:- 
 
