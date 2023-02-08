@@ -1,12 +1,17 @@
-# All-Pracs
-## practical files MSc.CS.
-
+# Practicals (MSc CS)
 ---
 ## Semester - I: 
 * Algorithm for Optimization (AO).
 * Software Defined Networking.
 * Applied Signal and Image Processing (DIP/AIP).
 * Advanced Database Techniques (ADBMS)
+
+---
+## Semester - II: 
+* Applied Machine and Deep Learning (ML).
+* Natural Language Processing (NLP).
+* Web Mining.
+* Embedded and IoT Technology (IOT).
 
 ---
 - Want to contribute ?
