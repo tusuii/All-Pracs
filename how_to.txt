@@ -1,0 +1,19 @@
+pip install virtualenv
+
+virtualenv nltk_virtual
+nltk_virtual\Scripts\activate
+deactivate                          # to deactivate virtenv
+
+Note:- once connected to virtualenv simply run the program files 
+       everything is already installed.
+
+---------------------OR for MAC/Linux------------------
+pip3 install virtualenv
+
+virtualenv nltk_virtual
+source nltk_virtual/bin/activate
+deactivate                          # to deactivate venv
+
+pip3 install nltk
+pip3 install spacy
+python -m spacy download en_core_web_sm
