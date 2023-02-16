@@ -6,6 +6,16 @@ deactivate                          # to deactivate virtenv
 
 Note:- once connected to virtualenv simply run the program files 
        everything is already installed.
+       
+       
+       
+Some files may require to download additional resource files :
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('maxent_ne_chunker')
+nltk.download('words')
+nltk.download('treebank')
+python -m spacy download en_core_web_sm
 
 ---------------------OR for MAC/Linux------------------
 pip3 install virtualenv
