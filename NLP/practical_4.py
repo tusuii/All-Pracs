@@ -2,11 +2,11 @@
 
 import nltk
 
-# nltk.download('punkt')
-# nltk.download('averaged_perceptron_tagger')
-# nltk.download('universal_tagset')
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('universal_tagset')
 
-text = "NLTK provides support for both HMM and NN-based PoS tagging."
+text = "Joe waited for the train, but the train was late"
 
 words = nltk.word_tokenize(text)
 
