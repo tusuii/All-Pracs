@@ -46,3 +46,4 @@
     1. Star this repository.
     2. help improving code/documentation.
     3. address if issues are present.
+    4. Any suggestions / Idea / recommendation discussion is open, feel free to write there.
