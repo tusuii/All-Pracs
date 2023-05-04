@@ -1,7 +1,7 @@
 # Practicals (MSc CS)
 ---
 ## Semester - I: 
-* Algorithm for Optimization (AO).    [View](https://github.com/tusuii/All-Pracs/tree/AOA)
+* Algorithm for Optimization (AO).    [View](https://github.com/tusuii/All-Pracs)
 * Software Defined Networking.    [View](https://github.com/tusuii/All-Pracs/blob/main/SDNPractical.pdf)
 * Applied Signal and Image Processing (DIP/AIP).    [View](https://github.com/tusuii/All-Pracs/tree/AIP/AIP_Pract_ALL)
 * Advanced Database Techniques (ADBMS)
