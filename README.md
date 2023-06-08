@@ -1,14 +1,9 @@
 # All-Pracs
-## place where I'll be uploading all practical files MSc.CS.
+## place where I'll be uploading all practical files MSc.CS AI.
 
 ---
-## Semester - I: 
-* Algorithm for Optimization (AO).
-* Software Defined Networking.
-* Applied Signal and Image Processing (DIP/AIP).
-* Advanced Database Techniques (ADBMS)
+MAD 
 
----
 - Want to contribute ?
 
     1.open Pull request
