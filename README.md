@@ -12,7 +12,11 @@
 * Natural Language Processing (NLP).    [View](https://github.com/tusuii/All-Pracs/tree/NLP/NLP)
 * Web Mining.    [View](https://github.com/tusuii/All-Pracs/tree/main/Web_mining)
 * Embedded and IoT Technology (IOT).    [View](https://github.com/tusuii/All-Pracs/tree/main/IOT)
-
+---
+# Practicals (MSc AI)
+---
+## Semester - II: 
+* Modern Algorithm Design (MAD).    [View](https://github.com/tusuii/All-Pracs/tree/MAD)
 ---
 - Want to contribute ?
 
