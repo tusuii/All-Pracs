@@ -1,9 +1,11 @@
 # All-Pracs
-## place where I'll be uploading all practical files MSc.CS AI.
+## place where I'll be uploading all practical files MSc-AI.
 
 ---
-MAD 
+## Semester - II: 
+* Modern Algorithm Design (MAD).
 
+---
 - Want to contribute ?
 
     1.open Pull request
