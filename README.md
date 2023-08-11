@@ -51,3 +51,8 @@
     2. help improving code/documentation.
     3. address if issues are present.
     4. Any suggestions / Idea / recommendation discussion is open, feel free to write there.
+
+
+
+ Thank you for your interest in this project! Happy contributing! 
+
