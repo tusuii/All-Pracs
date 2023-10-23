@@ -1,4 +1,4 @@
-# # practical 1 : Create one-dimensional data using series and perform various operations on it 
+# practical 1 : Create one-dimensional data using series and perform various operations on it 
 library("methods")
 data <- c(1,2,3,4,5,6)
 
