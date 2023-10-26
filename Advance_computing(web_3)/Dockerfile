@@ -3,6 +3,7 @@
 # wsl --status 
 # wsl --set-default-version 2
 # https://learn.microsoft.com/en-us/windows/wsl/install
+# docker run hyperledger/fabric-nodeenv
 
 FROM ubuntu
 
