@@ -1,1 +1,18 @@
 # https://github.com/IBM/blockchain-application-using-fabric-java-sdk
+# https://hub.docker.com/r/hyperledger/fabric-javaenv
+# https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04
+# https://hyperledger.github.io/fabric-gateway-java/#how-to-use
+
+# https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html # prequisites
+
+# https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html # Actual practical to perform ======================>
+
+# first complete practical 1
+
+# curl -sSL https://raw.githubusercontent.com/hyperledger/fabric/master/scripts/bootstrap.sh | bash
+
+# https://hub.docker.com/r/hyperledger/fabric-baseos
+# mkdir first-blockchain-app
+# docker run -it -v <host-path>:/app/ hyperledger/fabric-baseos bash
+
+# 
