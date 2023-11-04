@@ -152,7 +152,7 @@ Download the latest release of fabric samples and docker images.
 
 Run following command under $HOME/go/src/github.com/ directory
 
-curl -sSL https://bit.ly/2ysbOFE | bash -s
+curl -sSL https://bit.ly/2ysbOFE | bash -s 1.4.4
 
 
 navigate to fabric folder
