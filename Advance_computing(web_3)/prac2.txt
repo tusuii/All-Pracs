@@ -16,3 +16,28 @@
 # docker run -it -v <host-path>:/app/ hyperledger/fabric-baseos bash
 
 # 
+# docker system prune -a
+
+FROM ubuntu
+
+RUN apt-get update && apt-get install -y \
+    curl \
+    wget \
+    unzip \
+    git \
+    build-essential \
+    gcc \
+    maven \
+    openjdk-11-jdk
+
+RUN wget https://golang.org/dl/go1.16.3.linux-amd64.tar.gz && tar xvf go1.16.3.linux-amd64.tar.gz && export GOPATH=$HOME/go && export PATH=$PATH:$GOPATH/bin
+
+ENV MAVEN_HOME /usr/share/maven
+ENV PATH $PATH:$MAVEN_HOME/bin
+
+RUN mkdir -p $HOME/go/src/github.com/
+
+RUN curl -sSL https://bit.ly/2ysbOFE | bash -s 1.4.4
+
+
+# docker system prune -a
