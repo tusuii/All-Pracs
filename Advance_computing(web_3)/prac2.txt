@@ -4,7 +4,7 @@
 # https://hyperledger.github.io/fabric-gateway-java/#how-to-use
 
 # https://hyperledger-fabric.readthedocs.io/en/release-1.4/prereqs.html # prequisites
-
+# https://hyperledger-fabric.readthedocs.io/en/latest/deploy_chaincode.html#:~:text=End%20users%20interact%20with%20the,a%20chaincode%20on%20their%20peers.
 # https://hyperledger-fabric.readthedocs.io/en/release-1.4/build_network.html # Actual practical to perform ======================>
 
 # first complete practical 1
