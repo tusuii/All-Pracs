@@ -6,6 +6,10 @@ https://rpubs.com/Rajeshree/1044169
   
 https://youtu.be/rJsaezoTVAE?si=OZSMmvG1h0h-bWSk
 
+* Practical 7
+
+https://help.tableau.com/current/pro/desktop/en-us/dashboards_dsd_create.htm
+
 * Practical 8
   
 https://www.techtipsgirl.com/post/forecasting-in-tableau
